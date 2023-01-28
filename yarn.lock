@@ -5,6 +5,58 @@ __metadata:
   version: 4
   cacheKey: 8
 
+"@yunseop-dev/react-analytics-provider@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@yunseop-dev/react-analytics-provider@workspace:."
+  dependencies:
+    "@babel/core": ^7.15.8
+    "@rollup/plugin-strip": ^2.1.0
+    "@storybook/addon-actions": ^6.3.12
+    "@storybook/addon-links": ^6.3.12
+    "@storybook/addon-storysource": ^6.3.12
+    "@storybook/addons": ^6.3.12
+    "@storybook/react": ^6.3.12
+    "@types/babel__core": ^7
+    "@types/faker": ^5.5.8
+    "@types/jest": ^27.0.1
+    "@types/react": ^16.14.13
+    "@types/react-dom": ^16.9.14
+    "@types/react-test-renderer": ^16.9.1
+    "@typescript-eslint/eslint-plugin": ^4.29.1
+    "@typescript-eslint/parser": ^4.29.1
+    "@yarnpkg/pnpify": ^3.0.1
+    eslint: ^7.32.0
+    eslint-config-prettier: ^8.3.0
+    eslint-import-resolver-typescript: ^2.4.0
+    eslint-plugin-import: ^2.24.0
+    eslint-plugin-jest: ^24.4.0
+    eslint-plugin-jsx-a11y: ^6.4.1
+    eslint-plugin-prettier: ^3.4.0
+    eslint-plugin-react: ^7.24.0
+    eslint-plugin-react-hooks: ^4.2.0
+    eslint-plugin-testing-library: ^4.10.1
+    faker: ^5.5.3
+    jest: ^27.1.0
+    prettier: ^2.3.2
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-scripts-ts: ^4.0.8
+    react-test-renderer: ^16.11.0
+    rollup: ^1.25.2
+    rollup-plugin-commonjs: ^10.1.0
+    rollup-plugin-node-resolve: ^5.2.0
+    rollup-plugin-peer-deps-external: ^2.2.0
+    rollup-plugin-serve: ^1.1.0
+    rollup-plugin-typescript2: ^0.30.0
+    ts-jest: ^27.0.5
+    tslib: ^2.3.1
+    typescript: ^4.1.2
+  peerDependencies:
+    react: ^17.0.2
+    react-dom: ^17.0.2
+  languageName: unknown
+  linkType: soft
+
 "@amplitude/types@npm:^1.9.0":
   version: 1.9.0
   resolution: "@amplitude/types@npm:1.9.0"
@@ -2449,79 +2501,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@every-analytics/react-analytics-provider@portal:../..::locator=demo%40workspace%3Ademo%2Fwith-cra":
+"@yunseop-dev/react-analytics-provider@portal:../..::locator=demo%40workspace%3Ademo%2Fwith-cra":
   version: 0.0.0-use.local
-  resolution: "@every-analytics/react-analytics-provider@portal:../..::locator=demo%40workspace%3Ademo%2Fwith-cra"
+  resolution: "@yunseop-dev/react-analytics-provider@portal:../..::locator=demo%40workspace%3Ademo%2Fwith-cra"
   peerDependencies:
-    amplitude-js: ^8.5.0
     react: ^17.0.2
     react-dom: ^17.0.2
   languageName: node
   linkType: soft
 
-"@every-analytics/react-analytics-provider@portal:../..::locator=with-nextjs%40workspace%3Ademo%2Fwith-nextjs":
+"@yunseop-dev/react-analytics-provider@portal:../..::locator=with-nextjs%40workspace%3Ademo%2Fwith-nextjs":
   version: 0.0.0-use.local
-  resolution: "@every-analytics/react-analytics-provider@portal:../..::locator=with-nextjs%40workspace%3Ademo%2Fwith-nextjs"
+  resolution: "@yunseop-dev/react-analytics-provider@portal:../..::locator=with-nextjs%40workspace%3Ademo%2Fwith-nextjs"
   peerDependencies:
-    amplitude-js: ^8.5.0
     react: ^17.0.2
     react-dom: ^17.0.2
   languageName: node
-  linkType: soft
-
-"@every-analytics/react-analytics-provider@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@every-analytics/react-analytics-provider@workspace:."
-  dependencies:
-    "@babel/core": ^7.15.8
-    "@rollup/plugin-strip": ^2.1.0
-    "@storybook/addon-actions": ^6.3.12
-    "@storybook/addon-links": ^6.3.12
-    "@storybook/addon-storysource": ^6.3.12
-    "@storybook/addons": ^6.3.12
-    "@storybook/react": ^6.3.12
-    "@types/amplitude-js": ^8.0.1
-    "@types/babel__core": ^7
-    "@types/faker": ^5.5.8
-    "@types/jest": ^27.0.1
-    "@types/react": ^16.14.13
-    "@types/react-dom": ^16.9.14
-    "@types/react-test-renderer": ^16.9.1
-    "@typescript-eslint/eslint-plugin": ^4.29.1
-    "@typescript-eslint/parser": ^4.29.1
-    "@yarnpkg/pnpify": ^3.0.1
-    amplitude-js: ^8.5.0
-    eslint: ^7.32.0
-    eslint-config-prettier: ^8.3.0
-    eslint-import-resolver-typescript: ^2.4.0
-    eslint-plugin-import: ^2.24.0
-    eslint-plugin-jest: ^24.4.0
-    eslint-plugin-jsx-a11y: ^6.4.1
-    eslint-plugin-prettier: ^3.4.0
-    eslint-plugin-react: ^7.24.0
-    eslint-plugin-react-hooks: ^4.2.0
-    eslint-plugin-testing-library: ^4.10.1
-    faker: ^5.5.3
-    jest: ^27.1.0
-    prettier: ^2.3.2
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-scripts-ts: ^4.0.8
-    react-test-renderer: ^16.11.0
-    rollup: ^1.25.2
-    rollup-plugin-commonjs: ^10.1.0
-    rollup-plugin-node-resolve: ^5.2.0
-    rollup-plugin-peer-deps-external: ^2.2.0
-    rollup-plugin-serve: ^1.1.0
-    rollup-plugin-typescript2: ^0.30.0
-    ts-jest: ^27.0.5
-    tslib: ^2.3.1
-    typescript: ^4.1.2
-  peerDependencies:
-    amplitude-js: ^8.5.0
-    react: ^17.0.2
-    react-dom: ^17.0.2
-  languageName: unknown
   linkType: soft
 
 "@gar/promisify@npm:^1.0.1":
@@ -5833,7 +5828,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"amplitude-js@npm:^8.5.0, amplitude-js@npm:^8.8.0":
+"amplitude-js@npm:^8.5.0":
   version: 8.9.0
   resolution: "amplitude-js@npm:8.9.0"
   dependencies:
@@ -9817,7 +9812,7 @@ __metadata:
   dependencies:
     "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
-    "@every-analytics/react-analytics-provider": "portal:../.."
+    "@yunseop-dev/react-analytics-provider": "portal:../.."
     "@types/amplitude-js": ^8.0.1
     "@types/node": ^12.0.0
     "@types/react": ^16.14.13
@@ -27080,12 +27075,10 @@ typescript@^4.1.2:
   version: 0.0.0-use.local
   resolution: "with-nextjs@workspace:demo/with-nextjs"
   dependencies:
-    "@every-analytics/react-analytics-provider": "portal:../.."
-    "@types/amplitude-js": ^8.0.1
+    "@yunseop-dev/react-analytics-provider": "portal:../.."
     "@types/node": ^16.10.2
     "@types/react": ^17.0.25
     "@types/react-dom": ^17.0.9
-    amplitude-js: ^8.8.0
     eslint: 7.32.0
     eslint-config-next: 11.1.0
     next: 11.1.0

@@ -82,7 +82,7 @@ npm version patch
 자동으로 commit과 tag가 생성되고 package.json의 버전이 올라갑니다.
 
 npm 저장소 publish를 원한다면 @milooy 에게 권한을 요청합니다.
-https://www.npmjs.com/package/@every-analytics/react-analytics-provider
+https://www.npmjs.com/package/@yunseop-dev/react-analytics-provider
 ```sh
 npm login
 npm publish

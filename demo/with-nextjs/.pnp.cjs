@@ -35,12 +35,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@every-analytics/react-analytics-provider", "virtual:e1278e3325cdcd9bead80a5643962beb7ef78becefffcac16c187d53d25d3727deb0abfc5b13f1c3c586be9a010eb7e6ef55e49cb5e5533ff5782e7abedef408#portal:../..::locator=with-nextjs%40workspace%3A."],
-            ["@types/amplitude-js", "npm:8.0.1"],
             ["@types/node", "npm:16.10.2"],
             ["@types/react", "npm:17.0.25"],
             ["@types/react-dom", "npm:17.0.9"],
-            ["amplitude-js", "npm:8.8.0"],
+            ["@yunseop-dev/react-analytics-provider", "virtual:e1278e3325cdcd9bead80a5643962beb7ef78becefffcac16c187d53d25d3727deb0abfc5b13f1c3c586be9a010eb7e6ef55e49cb5e5533ff5782e7abedef408#portal:../..::locator=with-nextjs%40workspace%3A."],
             ["eslint", "npm:7.32.0"],
             ["eslint-config-next", "virtual:e1278e3325cdcd9bead80a5643962beb7ef78becefffcac16c187d53d25d3727deb0abfc5b13f1c3c586be9a010eb7e6ef55e49cb5e5533ff5782e7abedef408#npm:11.1.0"],
             ["next", "virtual:e1278e3325cdcd9bead80a5643962beb7ef78becefffcac16c187d53d25d3727deb0abfc5b13f1c3c586be9a010eb7e6ef55e49cb5e5533ff5782e7abedef408#npm:11.1.0"],
@@ -49,35 +47,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=32657b"]
           ],
           "linkType": "SOFT",
-        }]
-      ]],
-      ["@amplitude/types", [
-        ["npm:1.8.4", {
-          "packageLocation": "./.yarn/cache/@amplitude-types-npm-1.8.4-62815fb01a-70d6b75ac6.zip/node_modules/@amplitude/types/",
-          "packageDependencies": [
-            ["@amplitude/types", "npm:1.8.4"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["@amplitude/ua-parser-js", [
-        ["npm:0.7.25", {
-          "packageLocation": "./.yarn/cache/@amplitude-ua-parser-js-npm-0.7.25-7cec2315b1-bba98d708d.zip/node_modules/@amplitude/ua-parser-js/",
-          "packageDependencies": [
-            ["@amplitude/ua-parser-js", "npm:0.7.25"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["@amplitude/utils", [
-        ["npm:1.8.4", {
-          "packageLocation": "./.yarn/cache/@amplitude-utils-npm-1.8.4-6565e33515-553b80aa49.zip/node_modules/@amplitude/utils/",
-          "packageDependencies": [
-            ["@amplitude/utils", "npm:1.8.4"],
-            ["@amplitude/types", "npm:1.8.4"],
-            ["tslib", "npm:1.14.1"]
-          ],
-          "linkType": "HARD",
         }]
       ]],
       ["@babel/code-frame", [
@@ -191,36 +160,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["strip-json-comments", "npm:3.1.1"]
           ],
           "linkType": "HARD",
-        }]
-      ]],
-      ["@every-analytics/react-analytics-provider", [
-        ["portal:../..::locator=with-nextjs%40workspace%3A.", {
-          "packageLocation": "../../",
-          "packageDependencies": [
-            ["@every-analytics/react-analytics-provider", "portal:../..::locator=with-nextjs%40workspace%3A."]
-          ],
-          "linkType": "SOFT",
-        }],
-        ["virtual:e1278e3325cdcd9bead80a5643962beb7ef78becefffcac16c187d53d25d3727deb0abfc5b13f1c3c586be9a010eb7e6ef55e49cb5e5533ff5782e7abedef408#portal:../..::locator=with-nextjs%40workspace%3A.", {
-          "packageLocation": "./.yarn/__virtual__/@every-analytics-react-analytics-provider-virtual-4f63ddda8f/3/",
-          "packageDependencies": [
-            ["@every-analytics/react-analytics-provider", "virtual:e1278e3325cdcd9bead80a5643962beb7ef78becefffcac16c187d53d25d3727deb0abfc5b13f1c3c586be9a010eb7e6ef55e49cb5e5533ff5782e7abedef408#portal:../..::locator=with-nextjs%40workspace%3A."],
-            ["@types/amplitude-js", "npm:8.0.1"],
-            ["@types/react", "npm:17.0.25"],
-            ["@types/react-dom", "npm:17.0.9"],
-            ["amplitude-js", "npm:8.8.0"],
-            ["react", "npm:17.0.2"],
-            ["react-dom", "virtual:e1278e3325cdcd9bead80a5643962beb7ef78becefffcac16c187d53d25d3727deb0abfc5b13f1c3c586be9a010eb7e6ef55e49cb5e5533ff5782e7abedef408#npm:17.0.2"]
-          ],
-          "packagePeers": [
-            "@types/amplitude-js",
-            "@types/react-dom",
-            "@types/react",
-            "amplitude-js",
-            "react-dom",
-            "react"
-          ],
-          "linkType": "SOFT",
         }]
       ]],
       ["@gar/promisify", [
@@ -464,15 +403,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["@types/amplitude-js", [
-        ["npm:8.0.1", {
-          "packageLocation": "./.yarn/cache/@types-amplitude-js-npm-8.0.1-4706f83812-538fe5d43d.zip/node_modules/@types/amplitude-js/",
-          "packageDependencies": [
-            ["@types/amplitude-js", "npm:8.0.1"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["@types/node", [
         ["npm:16.10.2", {
           "packageLocation": "./.yarn/cache/@types-node-npm-16.10.2-9677b4eef7-83c1c3c68e.zip/node_modules/@types/node/",
@@ -615,6 +545,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@yunseop-dev/react-analytics-provider", [
+        ["portal:../..::locator=with-nextjs%40workspace%3A.", {
+          "packageLocation": "../../",
+          "packageDependencies": [
+            ["@yunseop-dev/react-analytics-provider", "portal:../..::locator=with-nextjs%40workspace%3A."]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:e1278e3325cdcd9bead80a5643962beb7ef78becefffcac16c187d53d25d3727deb0abfc5b13f1c3c586be9a010eb7e6ef55e49cb5e5533ff5782e7abedef408#portal:../..::locator=with-nextjs%40workspace%3A.", {
+          "packageLocation": "./.yarn/__virtual__/@yunseop-dev-react-analytics-provider-virtual-bb7de2490f/3/",
+          "packageDependencies": [
+            ["@yunseop-dev/react-analytics-provider", "virtual:e1278e3325cdcd9bead80a5643962beb7ef78becefffcac16c187d53d25d3727deb0abfc5b13f1c3c586be9a010eb7e6ef55e49cb5e5533ff5782e7abedef408#portal:../..::locator=with-nextjs%40workspace%3A."],
+            ["@types/react", "npm:17.0.25"],
+            ["@types/react-dom", "npm:17.0.9"],
+            ["react", "npm:17.0.2"],
+            ["react-dom", "virtual:e1278e3325cdcd9bead80a5643962beb7ef78becefffcac16c187d53d25d3727deb0abfc5b13f1c3c586be9a010eb7e6ef55e49cb5e5533ff5782e7abedef408#npm:17.0.2"]
+          ],
+          "packagePeers": [
+            "@types/react-dom",
+            "@types/react",
+            "react-dom",
+            "react"
+          ],
+          "linkType": "SOFT",
+        }]
+      ]],
       ["abbrev", [
         ["npm:1.1.1", {
           "packageLocation": "./.yarn/cache/abbrev-npm-1.1.1-3659247eab-a4a97ec07d.zip/node_modules/abbrev/",
@@ -708,19 +664,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["json-schema-traverse", "npm:1.0.0"],
             ["require-from-string", "npm:2.0.2"],
             ["uri-js", "npm:4.4.1"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["amplitude-js", [
-        ["npm:8.8.0", {
-          "packageLocation": "./.yarn/cache/amplitude-js-npm-8.8.0-5b12933858-219b625d20.zip/node_modules/amplitude-js/",
-          "packageDependencies": [
-            ["amplitude-js", "npm:8.8.0"],
-            ["@amplitude/ua-parser-js", "npm:0.7.25"],
-            ["@amplitude/utils", "npm:1.8.4"],
-            ["blueimp-md5", "npm:2.19.0"],
-            ["query-string", "npm:5.1.1"]
           ],
           "linkType": "HARD",
         }]
@@ -1005,15 +948,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/binary-extensions-npm-2.2.0-180c33fec7-ccd267956c.zip/node_modules/binary-extensions/",
           "packageDependencies": [
             ["binary-extensions", "npm:2.2.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["blueimp-md5", [
-        ["npm:2.19.0", {
-          "packageLocation": "./.yarn/cache/blueimp-md5-npm-2.19.0-0a19585c8c-28095dcbd2.zip/node_modules/blueimp-md5/",
-          "packageDependencies": [
-            ["blueimp-md5", "npm:2.19.0"]
           ],
           "linkType": "HARD",
         }]
@@ -1680,15 +1614,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "packagePeers": [
             "supports-color"
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["decode-uri-component", [
-        ["npm:0.2.0", {
-          "packageLocation": "./.yarn/cache/decode-uri-component-npm-0.2.0-5bcc0f3597-f3749344ab.zip/node_modules/decode-uri-component/",
-          "packageDependencies": [
-            ["decode-uri-component", "npm:0.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -4459,18 +4384,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["query-string", [
-        ["npm:5.1.1", {
-          "packageLocation": "./.yarn/cache/query-string-npm-5.1.1-86edac70d6-4ac760d977.zip/node_modules/query-string/",
-          "packageDependencies": [
-            ["query-string", "npm:5.1.1"],
-            ["decode-uri-component", "npm:0.2.0"],
-            ["object-assign", "npm:4.1.1"],
-            ["strict-uri-encode", "npm:1.1.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["querystring", [
         ["npm:0.2.0", {
           "packageLocation": "./.yarn/cache/querystring-npm-0.2.0-421b870c92-8258d6734f.zip/node_modules/querystring/",
@@ -5138,15 +5051,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["stream-parser", "npm:0.3.1"],
             ["debug", "virtual:ba719d3e9a3925dc305777148644bc96276f0a52de92ef2129489563ff61f2334924ac13dbd6364ebedbcc69a0c61d2b2c646ad4f27e7aba4d8123e7f71bcd01#npm:2.6.9"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["strict-uri-encode", [
-        ["npm:1.1.0", {
-          "packageLocation": "./.yarn/cache/strict-uri-encode-npm-1.1.0-a79c6f7f24-9466d371f7.zip/node_modules/strict-uri-encode/",
-          "packageDependencies": [
-            ["strict-uri-encode", "npm:1.1.0"]
           ],
           "linkType": "HARD",
         }]
@@ -5831,12 +5735,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["with-nextjs", "workspace:."],
-            ["@every-analytics/react-analytics-provider", "virtual:e1278e3325cdcd9bead80a5643962beb7ef78becefffcac16c187d53d25d3727deb0abfc5b13f1c3c586be9a010eb7e6ef55e49cb5e5533ff5782e7abedef408#portal:../..::locator=with-nextjs%40workspace%3A."],
-            ["@types/amplitude-js", "npm:8.0.1"],
             ["@types/node", "npm:16.10.2"],
             ["@types/react", "npm:17.0.25"],
             ["@types/react-dom", "npm:17.0.9"],
-            ["amplitude-js", "npm:8.8.0"],
+            ["@yunseop-dev/react-analytics-provider", "virtual:e1278e3325cdcd9bead80a5643962beb7ef78becefffcac16c187d53d25d3727deb0abfc5b13f1c3c586be9a010eb7e6ef55e49cb5e5533ff5782e7abedef408#portal:../..::locator=with-nextjs%40workspace%3A."],
             ["eslint", "npm:7.32.0"],
             ["eslint-config-next", "virtual:e1278e3325cdcd9bead80a5643962beb7ef78becefffcac16c187d53d25d3727deb0abfc5b13f1c3c586be9a010eb7e6ef55e49cb5e5533ff5782e7abedef408#npm:11.1.0"],
             ["next", "virtual:e1278e3325cdcd9bead80a5643962beb7ef78becefffcac16c187d53d25d3727deb0abfc5b13f1c3c586be9a010eb7e6ef55e49cb5e5533ff5782e7abedef408#npm:11.1.0"],
