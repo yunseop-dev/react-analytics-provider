@@ -1,5 +1,5 @@
 import {css, Global} from '@emotion/react';
-import {AnalyticsProvider} from '@every-analytics/react-analytics-provider';
+import {AnalyticsProvider} from '@yunseop-dev/react-analytics-provider';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Toaster} from 'react-hot-toast';
@@ -8,7 +8,6 @@ import App from './App';
 import {fruitLogger} from './utils/fruitLogger';
 import globalStyle from './utils/globalStyle';
 
-// amplitudeHelper.initialize(process.env.REACT_APP_AMPLITUDE_API_KEY);
 const persistentValues = {userNo: 123};
 
 ReactDOM.render(
@@ -24,9 +23,6 @@ ReactDOM.render(
           trackingId: process.env.REACT_APP_GA_TRACKING_ID,
           persistentValues,
         },
-        amplitude: {
-          apiKey: process.env.REACT_APP_AMPLITUDE_API_KEY,
-        },
       }}
       onInit={() => {
         // You can initialize other loggers here.
@@ -37,7 +33,6 @@ ReactDOM.render(
       //   const path = window.location.pathname + window.location.search;
       //   fruitLogger.pageView(path, params);
       //   toaster.pageView(path, params);
-      //   amplitudeHelper.logEvent('pageView', {path});
       // }}
       // onEvent={(name, params) => {
       //   googleAnalyticsHelper.event(name, params);

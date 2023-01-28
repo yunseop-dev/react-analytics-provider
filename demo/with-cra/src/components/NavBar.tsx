@@ -1,5 +1,5 @@
 import React from 'react';
-import {useAnalyticsContext} from '@every-analytics/react-analytics-provider';
+import {useAnalyticsContext} from '@yunseop-dev/react-analytics-provider';
 import navigate from '../router/navigate';
 
 const NavBar = () => {

@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import {useAnalyticsContext} from '@every-analytics/react-analytics-provider';
+import {useAnalyticsContext} from '@yunseop-dev/react-analytics-provider';
 import React from 'react';
 import {useSearchParams} from 'react-router-dom';
 import NavItem, {NavItemProps} from './NavItem';

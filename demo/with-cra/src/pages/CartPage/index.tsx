@@ -4,7 +4,7 @@ import {getQueryParams} from '../../utils/location';
 import navigate from '../../router/navigate';
 import products from '../../mocks/ecommerce/products.json';
 import styled from '@emotion/styled';
-import {useAnalyticsPageView} from '@every-analytics/react-analytics-provider';
+import {useAnalyticsPageView} from '@yunseop-dev/react-analytics-provider';
 
 const CartPage = () => {
   const {referrer} = getQueryParams<{referrer: string}>();

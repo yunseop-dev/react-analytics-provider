@@ -1,7 +1,6 @@
-import navigate from '../../router/navigate';
 import products from '../../mocks/ecommerce/products.json';
 import styled from '@emotion/styled';
-import {useAnalyticsPageView} from '@every-analytics/react-analytics-provider';
+import {useAnalyticsPageView} from '@yunseop-dev/react-analytics-provider';
 import ProductCartItems from '../../components/ProductCartItems';
 import ProductCartLayout from '../../components/ProductCartLayout';
 import {useSearchParams, useNavigate} from 'react-router-dom';

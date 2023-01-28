@@ -1,4 +1,4 @@
-import {AnalyticsPageView} from '@every-analytics/react-analytics-provider';
+import {AnalyticsPageView} from '@yunseop-dev/react-analytics-provider';
 
 const FruiteStorePage = () => {
   return (
