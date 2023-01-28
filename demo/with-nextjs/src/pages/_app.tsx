@@ -1,4 +1,4 @@
-import {googleAnalyticsHelper, AnalyticsProvider} from '@yunseop-dev/react-analytics-provider';
+import {googleAnalyticsHelper, AnalyticsProvider} from '@every-analytics/react-analytics-provider';
 import {AppProps} from 'next/app';
 import {Layout} from '../layout/Layout';
 

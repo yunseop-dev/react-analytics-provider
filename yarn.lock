@@ -5,9 +5,9 @@ __metadata:
   version: 4
   cacheKey: 8
 
-"@yunseop-dev/react-analytics-provider@workspace:.":
+"@every-analytics/react-analytics-provider@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@yunseop-dev/react-analytics-provider@workspace:."
+  resolution: "@every-analytics/react-analytics-provider@workspace:."
   dependencies:
     "@babel/core": ^7.15.8
     "@rollup/plugin-strip": ^2.1.0
@@ -2501,18 +2501,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yunseop-dev/react-analytics-provider@portal:../..::locator=demo%40workspace%3Ademo%2Fwith-cra":
+"@every-analytics/react-analytics-provider@portal:../..::locator=demo%40workspace%3Ademo%2Fwith-cra":
   version: 0.0.0-use.local
-  resolution: "@yunseop-dev/react-analytics-provider@portal:../..::locator=demo%40workspace%3Ademo%2Fwith-cra"
+  resolution: "@every-analytics/react-analytics-provider@portal:../..::locator=demo%40workspace%3Ademo%2Fwith-cra"
   peerDependencies:
     react: ^17.0.2
     react-dom: ^17.0.2
   languageName: node
   linkType: soft
 
-"@yunseop-dev/react-analytics-provider@portal:../..::locator=with-nextjs%40workspace%3Ademo%2Fwith-nextjs":
+"@every-analytics/react-analytics-provider@portal:../..::locator=with-nextjs%40workspace%3Ademo%2Fwith-nextjs":
   version: 0.0.0-use.local
-  resolution: "@yunseop-dev/react-analytics-provider@portal:../..::locator=with-nextjs%40workspace%3Ademo%2Fwith-nextjs"
+  resolution: "@every-analytics/react-analytics-provider@portal:../..::locator=with-nextjs%40workspace%3Ademo%2Fwith-nextjs"
   peerDependencies:
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -9812,7 +9812,7 @@ __metadata:
   dependencies:
     "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
-    "@yunseop-dev/react-analytics-provider": "portal:../.."
+    "@every-analytics/react-analytics-provider": "portal:../.."
     "@types/amplitude-js": ^8.0.1
     "@types/node": ^12.0.0
     "@types/react": ^16.14.13
@@ -27075,7 +27075,7 @@ typescript@^4.1.2:
   version: 0.0.0-use.local
   resolution: "with-nextjs@workspace:demo/with-nextjs"
   dependencies:
-    "@yunseop-dev/react-analytics-provider": "portal:../.."
+    "@every-analytics/react-analytics-provider": "portal:../.."
     "@types/node": ^16.10.2
     "@types/react": ^17.0.25
     "@types/react-dom": ^17.0.9

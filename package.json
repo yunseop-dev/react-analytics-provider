@@ -1,5 +1,5 @@
 {
-  "name": "@yunseop-dev/react-analytics-provider",
+  "name": "@every-analytics/react-analytics-provider",
   "version": "0.3.0",
   "description": "",
   "main": "build/index.js",

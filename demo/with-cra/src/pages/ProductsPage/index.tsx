@@ -1,4 +1,4 @@
-import {useAnalyticsContext} from '@yunseop-dev/react-analytics-provider';
+import {useAnalyticsContext} from '@every-analytics/react-analytics-provider';
 import {useEffect} from 'react';
 import {useNavigate, useSearchParams} from 'react-router-dom';
 import Card from '../../components/Card';

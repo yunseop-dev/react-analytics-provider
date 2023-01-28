@@ -1,4 +1,4 @@
-import {AnalyticsPageView, AnalyticsClick} from '@yunseop-dev/react-analytics-provider';
+import {AnalyticsPageView, AnalyticsClick} from '@every-analytics/react-analytics-provider';
 import {useRouter} from 'next/router';
 import styles from './index.module.css';
 

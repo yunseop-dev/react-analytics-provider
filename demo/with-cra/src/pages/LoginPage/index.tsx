@@ -1,4 +1,4 @@
-import {AnalyticsPageView} from '@yunseop-dev/react-analytics-provider';
+import {AnalyticsPageView} from '@every-analytics/react-analytics-provider';
 
 const LoginPage = () => {
   return (

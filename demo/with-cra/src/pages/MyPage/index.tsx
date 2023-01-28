@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import {useAnalyticsContext} from '@yunseop-dev/react-analytics-provider';
+import {useAnalyticsContext} from '@every-analytics/react-analytics-provider';
 import {useState} from 'react';
 import Select from '../../components/Select';
 

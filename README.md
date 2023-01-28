@@ -6,11 +6,11 @@
 </p>
 
 <p align="center">
-  <a aria-label="NPM version" href="https://www.npmjs.com/package/@yunseop-dev/react-analytics-provider">
-    <img alt="" src="https://img.shields.io/npm/v/@yunseop-dev/react-analytics-provider.svg?style=for-the-badge&labelColor=000000">
+  <a aria-label="NPM version" href="https://www.npmjs.com/package/@every-analytics/react-analytics-provider">
+    <img alt="" src="https://img.shields.io/npm/v/@every-analytics/react-analytics-provider.svg?style=for-the-badge&labelColor=000000">
   </a>
   <a aria-label="License" href="https://github.com/EveryAnalytics/react-analytics-provider/blob/main/LICENSE">
-    <img alt="" src="https://img.shields.io/npm/l/@yunseop-dev/react-analytics-provider.svg?style=for-the-badge&labelColor=000000">
+    <img alt="" src="https://img.shields.io/npm/l/@every-analytics/react-analytics-provider.svg?style=for-the-badge&labelColor=000000">
   </a>
   <a aria-label="GitHub Stars" href="https://github.com/EveryAnalytics/react-analytics-provider">
     <img alt="" src="https://img.shields.io/github/stars/EveryAnalytics/react-analytics-provider?style=for-the-badge&labelColor=000000">
@@ -30,9 +30,9 @@
 ## 1. Getting Started
 
 ```shell
-npm i --save @yunseop-dev/react-analytics-provider
+npm i --save @every-analytics/react-analytics-provider
 # or
-yarn add @yunseop-dev/react-analytics-provider
+yarn add @every-analytics/react-analytics-provider
 ```
 
 ## 2. Usage
@@ -40,7 +40,7 @@ yarn add @yunseop-dev/react-analytics-provider
 You can check examples [here](https://github.com/EveryAnalytics/react-analytics-provider/tree/main/demo)
 
 ```tsx
-import {AnalyticsProvider} from '@yunseop-dev/react-analytics-provider';
+import {AnalyticsProvider} from '@every-analytics/react-analytics-provider';
 
 <AnalyticsProvider
   onInitialize={() => console.log('initialized')}

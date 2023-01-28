@@ -1,5 +1,5 @@
 import {css, Global} from '@emotion/react';
-import {AnalyticsProvider} from '@yunseop-dev/react-analytics-provider';
+import {AnalyticsProvider} from '@every-analytics/react-analytics-provider';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Toaster} from 'react-hot-toast';
