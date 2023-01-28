@@ -7,9 +7,6 @@ Analytics.init({
       trackingId: '123',
       persistentValues: {userNo: 1},
     },
-    amplitude: {
-      apiKey: '456',
-    },
   },
   onEvent: (...args) => {
     console.info('event occured! ' + args);
@@ -20,7 +17,7 @@ const Sample = () => {
   return (
     <button
       onClick={() => {
-        Analytics.event('storybook click');
+        Analytics.event('storybook click', {hello: 'world'});
       }}
     >
       click me
